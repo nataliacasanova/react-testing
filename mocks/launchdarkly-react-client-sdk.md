@@ -29,10 +29,10 @@ beforeEach(() => {
 
 > Si queremos usar el mismo mock en cada test, lo pondremos en el método _beforeEach()_
 
-##Example
+## Example
 
 ```
-**index.tsx**
+** index.tsx **
 
 import { useFlags } from 'launchdarkly-react-client-sdk';
 
@@ -41,7 +41,7 @@ const function Component = () => {
 
 }
 
-**index.test.tsx**
+** index.test.tsx **
 
 import { useFlags } from 'launchdarkly-react-client-sdk';
 
@@ -55,3 +55,5 @@ beforeEach(() => {
   });
 });
 ```
+
+[<- Atras](../README.md)
