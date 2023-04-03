@@ -1,6 +1,6 @@
 # MOCKS
 
-## Mock use
+## Use Flags()
 
 1. Mock the library
 
@@ -31,8 +31,10 @@ beforeEach(() => {
 
 ## Example
 
+**index.tsx**
+
 ```
-** index.tsx **
+
 
 import { useFlags } from 'launchdarkly-react-client-sdk';
 
@@ -41,7 +43,11 @@ const function Component = () => {
 
 }
 
-** index.test.tsx **
+```
+
+**index.test.tsx**
+
+```
 
 import { useFlags } from 'launchdarkly-react-client-sdk';
 
